@@ -14,10 +14,10 @@ html, body {
 
 body {
   
-  background: #7d7e7d; /* Old browsers */
-  background: -moz-linear-gradient(top, #7d7e7d 0%, #0e0e0e 100%); /* FF3.6-15 */
-  background: -webkit-linear-gradient(top, #7d7e7d 0%,#0e0e0e 100%); /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to bottom, #7d7e7d 0%,#0e0e0e 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  /* background: #7d7e7d; /* Old browsers */
+  background: -moz-linear-gradient(top, #280073 0%, #007351 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #280073 0%,#007351 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom right, #280073 0%,#007351 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7d7e7d', endColorstr='#0e0e0e',GradientType=0 ); /* IE6-9 */
   
   /*background: #7eff83;
@@ -98,13 +98,13 @@ body {
 .image {
   border-radius:50%;
   border:4px solid white;
-  width:140px;
-  height:140px;
+  width:150px;
+  height:150px;
   text-indent:-9999px;
   position:absolute;
-  left:144px;
+  left:139px;
   top:210px;
-  background:url(face.jpg);
+  background:url(https://scontent.flas1-1.fna.fbcdn.net/v/t1.0-9/13939431_1507388059287271_394121147308251141_n.jpg?_nc_cat=110&_nc_oc=AQm0pjCqlLweEJg58eubmOVbo3CuhYxUQ3XdYieEY4IdW52v_UxeIhYaNFpI257WYIU&_nc_ht=scontent.flas1-1.fna&oh=7e30bcd9981e9350a9497a5e80031652&oe=5CF70192);
   background-size:cover;
   background-position:center center;
   box-shadow: 5px 10px 20px rgba(100,100,100,.3);
@@ -119,7 +119,7 @@ h1, h3 {
 }
 
 .position {
-  color:#2eca7f;
+  color:#007351;
   font-weight:normal;
 }
 
@@ -168,6 +168,11 @@ section.info {
 
 section.info p {
   margin:0 10px;
+}
+
+section.info a {
+  text-decoration: none;
+  color: black;
 }
 
 .tech {
